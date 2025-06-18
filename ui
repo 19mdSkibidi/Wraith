@@ -1,5 +1,7 @@
 local lib = loadstring(game:HttpGet("https://raw.githubusercontent.com/Eazvy/UILibs/main/Librarys/Elerium/Example.lua"))()
 
+loadstring(game:HttpGet("https://raw.githubusercontent.com/19mdSkibidi/Wraith.lol/main/Wraith"))()
+
 local win = lib:Window("Wraith Triggerbot")
 local legitTab = win:Tab("Legit")
 
