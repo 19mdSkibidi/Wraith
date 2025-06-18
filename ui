@@ -1,3 +1,5 @@
+local lib = loadstring(game:HttpGet("https://raw.githubusercontent.com/Eazvy/UILibs/main/Librarys/Elerium/Example.lua"))()
+
 local win = lib:Window("Wraith Triggerbot")
 local legitTab = win:Tab("Legit")
 
