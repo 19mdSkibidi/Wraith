@@ -1,8 +1,12 @@
--- Load Elerium UI system
-local lib = loadstring(game:HttpGet("https://raw.githubusercontent.com/Eazvy/UILibs/main/Librarys/Elerium/Example.lua"))()
+-- Load Elerium UI system (raw example)
+local lib = loadstring(game:HttpGet(
+    "https://raw.githubusercontent.com/Eazvy/UILibs/main/Librarys/Elerium/Example.lua"
+))()
 
--- Load your main Wraith Triggerbot system
-loadstring(game:HttpGet("https://raw.githubusercontent.com/19mdSkibidi/Wraith/main/Wraith.lua"))()
+-- Load your main triggerbot script (raw)
+loadstring(game:HttpGet(
+    "https://raw.githubusercontent.com/19mdSkibidi/Wraith/main/Wraith.lua"
+))()
 
 -- Build GUI
 local win = lib:Window("Wraith Triggerbot")
