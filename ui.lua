@@ -3,6 +3,7 @@
 	version 1.3a
 	by Singularity (V3rm @ King Singularity) (Discord @ Singularity#5490)
 --]]
+local Library = {}
 
 local ui_options = {
 	main_color = Color3.fromRGB(41, 74, 122),
